@@ -1,0 +1,40 @@
+h1{
+    text-align: none;
+}
+.flex-justify-contnt{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.flex-justify-contnt div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.flex-align-ites{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.flex-align-ites div{
+    display: flex;
+    align-items: end;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.wrap-container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 20px;
+}
+.wrap{
+    height: 100px;
+    width: 100px ;
+    background-color: chocolate;
+}
